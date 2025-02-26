@@ -11,7 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
       <h1>{{ message }}</h1>
       <button mat-raised-button color="primary" (click)="surpriseMe()">Surprise Me</button>
       <div *ngIf="showMeme">
-        <img [src]="randomMeme" alt="Coding Meme" style="margin-top: 20px; max-width: 400px; border-radius: 10px;">
+        <img [src]="randomMeme" alt="Coding Meme" style="margin-top: 20px; max-width: 100%; height: auto; border-radius: 10px;">
       </div>
     </div>
     `,
